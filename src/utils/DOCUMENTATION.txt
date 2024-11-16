@@ -1,0 +1,54 @@
+
+INTRODUCTION
+
+The single-page application (SPA) is developed using React, and Material UI components are utilized for their rich feature set and ease of use. The application is divided into three main sections:
+
+1. Header Area
+2. Widget Area
+3. Footer Area
+
+ Header Area
+
+- The Coca Pvt Ltd logo, as provided in the Figma design, is displayed at the top. Clicking on the logo redirects the user to the homepage.
+
+  authenticated users : email : cocamainuser@gmail.com , password : password
+								cocaseconduser@gmail.com , password : password
+- A button panel is placed centrally in the header, allowing users to navigate between different sections of the application.
+- A Sign In button is positioned on the right side of the header panel.
+  - Clicking the Sign In button opens a modal with fields to enter the email and password.
+  - A Google Login button is also provided. Clicking this opens a Google login modal, allowing the user to authenticate via their Google account.
+  - Upon successful login, the user’s email ID is displayed, and the Sign In button changes to a Logout button.
+  - Clicking the Logout button successfully logs the user out of the application.
+  - If login fails, the modal focus remains on the login fields, allowing the user to attempt again. The modal can also be closed and the user can proceed without logging in.
+
+
+
+ Widget Area
+
+1. First Widget Component
+   - This widget displays sales statistics, rating reviews, and a total partner panel.
+   - There is also a widget for getting started with the application creation.
+
+2. Complementary Feature Component
+   - This component showcases additional features available in the application, with options for Launch Demo and More Info. It includes three distinct widgets.
+
+3. Package Component
+   - Displays the available subscription plans, both monthly and annually, along with the services provided in each plan.
+   - Toggling between the plan buttons changes the displayed plan and updates the associated pricing.
+
+4. Ease in Hand Component
+   - This component presents different services offered through individual cards.
+   - It also displays feedback from users, allowing new users to see reviews of the services provided.
+
+
+
+ Footer Area
+
+- The primary highlight of this section is the Social Media Component. This dynamic feature allows users to click on social media icons, which redirect them to Coca’s official social media profiles.
+
+
+CODE EXPLAINED
+
+    -  The execution begins from the App.js which is the entry point, where HomeParentContainer is imported
+	- HomeParentContainer is the main component which hosts all the component
+	- firebase-config file has the details about the firebase db used for authentication purposes.
