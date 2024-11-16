@@ -1,6 +1,11 @@
 
 INTRODUCTION
 
+To start the repo in local
+1. clone the github repo
+2. open console and run the command -> npm install
+3. check local repo
+
 The single-page application (SPA) is developed using React, and Material UI components are utilized for their rich feature set and ease of use. The application is divided into three main sections:
 
 1. Header Area
